@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.page {
+  height: 500vh;
+}
+
+.progress_wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.progress_bar {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 0%;
+  height: 10px;
+  background-color: blue;
+}

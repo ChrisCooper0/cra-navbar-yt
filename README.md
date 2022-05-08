@@ -1,3 +1,13 @@
+# React Navbar
+
+## Tutorial
+
+Watch how I built this on YouTube:
+
+[![YouTube thumbnail](./thumb.png)](https://youtu.be/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

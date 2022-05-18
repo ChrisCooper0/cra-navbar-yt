@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .page {
@@ -22,4 +23,31 @@
   width: 0%;
   height: 10px;
   background-color: blue;
+}
+
+.hidden {
+  display: none;
+}
+
+.showButton {
+  position: fixed;
+  background-color: lightgrey;
+  border-radius: 50%;
+  padding: 0.25rem;
+  right: -100px;
+  bottom: 50px;
+  font-size: 35px;
+  color: grey;
+  cursor: pointer;
+  transform: translateX(-150px);
+  animation: slideLeft 1s;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(-150px);
+  }
 }
